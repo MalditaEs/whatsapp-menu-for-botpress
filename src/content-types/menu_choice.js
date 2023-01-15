@@ -2,7 +2,7 @@ const base = require('./_base')
 const utils = require('./_utils')
 
 function renderElement(data, channel) {
-  return utils.extractPayload('whatsapp-list', data)
+  return utils.extractPayload('whatsapp_list', data)
 }
 
 module.exports = {
